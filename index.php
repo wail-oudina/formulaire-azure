@@ -6,12 +6,12 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 <body>
-  <div class="container display-flex flex">
-    <h1>Formulaire</h1>
-  </div>
+
   <div class="container">
     <div class="row justify-content-center align-items-center">
-      <div class="col-sm-8 col-md-6">
+      <h1 class="mb-4">Formulaire données personelles</h1>
+
+      <div class="col-sm-8 col-md-6 ">
         <form action="traitement.php" method="POST">
           <div class="form-group">
             <label for="nom">Nom:</label>
@@ -39,8 +39,9 @@
               <label class="form-check-label" for="sexe_femme">Femme</label>
             </div>
           </div>
-
-          <button type="submit" class="btn btn-primary">Soumettre</button>
+          <div class="text-center">
+            <button type="submit" class="btn btn-primary ">Soumettre</button>
+          </div>
         </form>
       </div>
     </div>
