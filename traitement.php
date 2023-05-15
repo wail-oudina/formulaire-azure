@@ -19,7 +19,7 @@ if ($conn === false) {
 }
 
 // Requête d'insertion des données
-$sql = "INSERT INTO VotreTable (nom, prenom, date_naissance, sexe) VALUES (?, ?, ?, ?)";
+$sql = "INSERT INTO donnees (nom, prenom, date_naissance, sexe) VALUES (?, ?, ?, ?)";
 $params = array($nom, $prenom, $dateNaissance, $sexe);
 $stmt = sqlsrv_query($conn, $sql, $params);
 
