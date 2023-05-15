@@ -20,7 +20,7 @@
       <tbody>
         <?php
         // Database connection settings
-        $serverName = 'bd-server-php.database.windows.net;
+        $serverName = 'bd-server-php.database.windows.net';
         $connectionOptions = array(
             'Database' => 'bd-formulaire',
             'Uid' => 'wail-oudina',
