@@ -6,6 +6,9 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
 </head>
 <body>
+  <div class="container display-flex flex">
+    <h1>Formulaire</h1>
+  </div>
   <div class="container">
     <div class="row justify-content-center align-items-center">
       <div class="col-sm-8 col-md-6">
